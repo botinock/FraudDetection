@@ -23,7 +23,7 @@ Further, we able to make some hypotheses what is fraud based on given data.
 6.  Levels 3 and 5 have reached many times in group (depends on game, not used).
 7.  Too similar ID in group. It can mean that all bots installed the game in the same time (not used).  
 
-There have been created 4 coulmns named *"flag"*, *"flag_rare"*, *"flag_zero"*, *"flag_NPU"*. It has a bool value if user was flagged by the above conditions.
+There have been created 4 columns named *"flag"*, *"flag_rare"*, *"flag_zero"*, *"flag_NPU"*. It has a bool value if user was flagged by the above conditions.
 These all data is not 100% fraud and should be subject to more detailed analysis.
 
 ## Data_3
@@ -36,4 +36,4 @@ Found anomalies:
 4.  Network type == 'Dialup', number of examples = 4.
 5.  User agent - Mozilla. Found 24.
 
-Device OS version anomaly can be labeling error because correct OS version information exist in user agent. Different country locations(except Russia) can be just a noise. And i can't tell anything about device models, other OS versions and app versions. It needs to apply different unsupervised machine learning models to get more information. 
+Device OS version anomaly can be labeling error because correct OS version information exist in user agent. Different country locations(except Russia) can be just a noise. And i can't tell anything about device models, other OS versions and app versions. It needs to apply different unsupervised machine learning models to get more information. There have been created 3 columns named *"flag_mozilla"*,	*"flag_zeros"*,	*"flag_os"*. It has a bool value if user was flagged by the above conditions.  
