@@ -1,6 +1,6 @@
 # FraudDetection
  Test task for Scalarr on Data Analysis and Anomaly Detection.  
- All the tasks have been completed using Python and Pandas.
+ All the tasks have been completed using Python and Pandas. Code in Jupyter Notebooks Data_1.ipynb, Data_2.ipynb, Data_3.ipynb.
  
 
 ## Data_1
